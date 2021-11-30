@@ -1,0 +1,40 @@
+CRITICAL - 2021-11-30 07:57:47 --> Unknown database 'restful_db'
+#0 C:\xampp\htdocs\Terlena\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\Terlena\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\Terlena\system\Database\BaseBuilder.php(1845): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\Terlena\system\Model.php(445): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\Terlena\app\Controllers\Products.php(14): CodeIgniter\Model->findAll()
+#5 C:\xampp\htdocs\Terlena\system\CodeIgniter.php(914): App\Controllers\Products->index()
+#6 C:\xampp\htdocs\Terlena\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+#7 C:\xampp\htdocs\Terlena\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Terlena\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2021-11-30 09:32:14 --> Invalid file: layout/main.php
+#0 C:\xampp\htdocs\getDaerah\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/main.php')
+#1 C:\xampp\htdocs\getDaerah\system\Common.php(1087): CodeIgniter\View\View->render('layout/main', Array, true)
+#2 C:\xampp\htdocs\getDaerah\app\Controllers\Main.php(7): view('layout/main')
+#3 C:\xampp\htdocs\getDaerah\system\CodeIgniter.php(914): App\Controllers\Main->index()
+#4 C:\xampp\htdocs\getDaerah\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#5 C:\xampp\htdocs\getDaerah\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\getDaerah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\getDaerah\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 09:33:23 --> Invalid file: layout/main.php
+#0 C:\xampp\htdocs\getDaerah\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('layout/main.php')
+#1 C:\xampp\htdocs\getDaerah\system\Common.php(1087): CodeIgniter\View\View->render('layout/main', Array, true)
+#2 C:\xampp\htdocs\getDaerah\app\Controllers\Main.php(7): view('layout/main')
+#3 C:\xampp\htdocs\getDaerah\system\CodeIgniter.php(914): App\Controllers\Main->index()
+#4 C:\xampp\htdocs\getDaerah\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#5 C:\xampp\htdocs\getDaerah\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\getDaerah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\getDaerah\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-11-30 10:37:20 --> syntax error, unexpected '='
+#0 C:\xampp\htdocs\getDaerah\system\Common.php(1087): CodeIgniter\View\View->render('layout/home', Array, true)
+#1 C:\xampp\htdocs\getDaerah\app\Controllers\Main.php(7): view('layout/home')
+#2 C:\xampp\htdocs\getDaerah\system\CodeIgniter.php(914): App\Controllers\Main->index()
+#3 C:\xampp\htdocs\getDaerah\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+#4 C:\xampp\htdocs\getDaerah\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\getDaerah\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\getDaerah\system\Commands\Server\rewrite.php(34): require_once('C:\\xampp\\htdocs...')
+#7 {main}
